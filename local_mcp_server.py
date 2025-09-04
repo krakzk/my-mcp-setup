@@ -4,6 +4,7 @@ mcp = FastMCP("My mcp server")
 
 @mcp.tool
 def greet(name: str) -> str:
+    """Greet user by name"""
     return f"Hello , {name}!"
 
 if __name__ == "__main__":
