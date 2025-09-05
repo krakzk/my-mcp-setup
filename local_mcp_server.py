@@ -13,9 +13,9 @@ def addNumbers(a: int, b: int) -> int:
     return a+b
 
 @mcp.tool(
-    name="Find character"
-    description="Search characters and find the one played by the actor name passed"
-    tags={"actors", "characters"}
+    name="Find character",
+    description="Search characters and find the one played by the actor name passed",
+    tags={"actors", "characters"},
     meta={"version": "1.1", "author":"krakz"}
 )
 def find_character(character: str) -> list[dict]:
